@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log in</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .container {
+        box-shadow: 0px 8px 24px rgb(0, 0, 0, 0.5);
+
+        width: 350px;
+        border-radius: 9px;
+        background-color: #0066ff;
+        position: relative;
+        text-align: center;
+        margin: 20px;
+      }
+      .inout-group {
+        padding: 20px;
+        margin: 20px;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+      }
+
+      input {
+        text-align: center;
+        font-size: small;
+        text-transform: capitalize;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+        width: 200px;
+      }
+      h4 {
+        text-transform: capitalize;
+        font-family: cursive;
+        font-size: small;
+        color: white;
+        text-align: right;
+      }
+      span {
+        color: rgb(0, 255, 68);
+      }
+      button {
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+        margin: 0 10px;
+        background-color: rgb(4, 247, 4);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inout-group">
+        <h1>log in here</h1>
+        <input type="text" placeholder="enter your name" required /> <br />
+        <input type="text" placeholder="enter your password" />
+        <h4>forget <span>password</span></h4>
+        <button type="button">log in</button>
+      </div>
+    </div>
+  </body>
+</html>
